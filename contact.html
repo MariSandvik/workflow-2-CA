@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="contact" content="page to find contact information">
+        <title>Contact us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+        <nav class="navothers">
+        <div class="navigation">
+        <a href="index.html" title="link to page in same directory">Home</a>
+        <a href="about.html" title="link to page in same directory">About us</a>
+        <a class="active" href="contact.html">Contact us</a>
+        <a href="tours.html" title="link to page in same directory">Routes and tours</a>
+        </div>
+        </nav>
+        <article class="contactform">
+        <form action="http://www.mari.meza.no/html_css/ca">
+            <fieldset>
+            <legend>Submit an enquiry</legend>
+                <p>
+                  <label for="enquiry-type">
+                  Enquiry type
+                  </label>
+                <select name="enquiry" id="enquiry-type">
+                   <option value="newbooking">New booking</option>
+                   <option value="exbooking">Existing booking</option>
+                   <option value="info">Information</option>
+                   <option value="others">Others</option>
+                </select>
+                </p>
+                <label>
+                Name:
+                <input type="text" name="name" size="30" maxlength="100">
+                </label>
+                <p></p>
+                <label>
+                Email:
+                <input type="email" name="email" size="30" maxlength="100">
+                </label>
+                <p></p>
+                <label>
+                Phone:
+                <input type="phone" name="phone" size="30" maxlength="100">
+                </label>
+                <p>
+                <label for="message">
+                Leave a message
+                </label>
+                <br />
+                <textarea rows="4" cols="40" id="message">
+                </textarea>
+                </p>
+                <input type="submit" value="Submit enquiry" />
+            </fieldset>
+            </form>
+            </article>
+            <aside class="contactinfo">
+            <h1>Contact information</h1>
+            <p>Phone number: 0047 235 86 876</p>
+            <p>Mail adress: trondheim@cycling.com</p>
+            <p>Adress: Havnegata 18, 7011 Trondheim</p>
+            </aside>
+        <footer class="footercontact">
+        <h3>Re-cycle</h3>
+        <p>Havnegata 18, 7011 Trondheim</p>
+        <p>0047 235 86 876</p>
+        <p>trondheim@cycling.com</p>
+        </footer>
+    </body>    
+</html>
